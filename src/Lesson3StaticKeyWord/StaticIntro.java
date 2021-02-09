@@ -1,5 +1,10 @@
 package Lesson3StaticKeyWord;
 
+/*
+Only one copy of static variable is created and t is shared by all the objects of that class
+You can not create static variable inside the method
+ */
+
 public class StaticIntro {
 
     int a = 0;

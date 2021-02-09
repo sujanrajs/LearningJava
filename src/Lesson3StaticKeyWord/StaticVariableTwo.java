@@ -1,6 +1,7 @@
 package Lesson3StaticKeyWord;
 
 /*
+Static variables are shared among all the instances of class
 In this example, String variable is non-static and integer variable is Static.
 As you can see in the output that the non-static variable is different for both the objects
 but the static variable is shared among them,

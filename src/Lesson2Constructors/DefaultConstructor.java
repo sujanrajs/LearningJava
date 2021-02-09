@@ -15,6 +15,6 @@ public class DefaultConstructor {
     // You can check this in out folder ---- DefaultConstructor.class
 
     public static void main(String[] args) {
-        System.out.println("Default Constructor Example");
+        System.out.println("Default Constructor ExampleTeacher");
     }
 }
