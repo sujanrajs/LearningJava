@@ -4,7 +4,7 @@ package Lesson4Inheritance;
 
 The process by which one class acquires the properties(data members)
 and functionalities(methods) of another class is called inheritance.
-The aim of inheritance is to provide the reuseability of code so that
+The aim of inheritance is to provide the re-usability of code so that
 a class has to write only the unique features and rest of the
 common properties and functionalities can be extended from the another class.
 

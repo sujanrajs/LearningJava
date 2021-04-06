@@ -5,7 +5,7 @@ public class TableOfContents {
         System.out.println(
                 "----Java Tutorial----\n" +
                         "Java Index\n" +
-                        "Java Introduction\n" +
+                        "Java Lesson6Association.Introduction\n" +
                         "JVM - Java Virtual Machine\n" +
                         "First Java Program\n" +
                         "Variables\n" +

@@ -1,0 +1,19 @@
+
+
+Although all three are related terms, there are some major differences in the way they relate two classes.
+Association is a relationship between two separate classes and the association can be of any type
+say one to one, one to may etc.
+It joins two entirely separate entities.
+
+Aggregation is a special form of association which is a unidirectional one way relationship
+between classes (or entities), for e.g. Wallet and Money classes.
+Wallet has Money but money doesn’t need to have Wallet necessarily so its a one directional relationship.
+In this relationship both the entries can survive if other one ends.
+In our example if Wallet class is not present, it does not mean that the Money class cannot exist.
+
+Composition is a restricted form of Aggregation in which two entities (or you can say classes)
+are highly dependent on each other. For e.g. Human and Heart.
+A human needs heart to live and a heart needs a Human body to survive.
+In other words when the classes (entities) are dependent on each other
+and their life span are same (if one dies then another one too) then its a composition.
+Heart class has no sense if Human class is not present.
