@@ -1,0 +1,46 @@
+Type Promotion table:
+
+
+The data type on the left side can be promoted to the any of the data type present in the right side of it.
+
+byte → short → int → long
+short → int → long
+int → long → float → double
+float → double
+long → float → double
+
+
+Lets see few Valid/invalid cases of method overloading
+Case 1:
+
+int mymethod(int a, int b, float c)
+int mymethod(int var1, int var2, float var3)
+
+Result: Compile time error. Argument lists are exactly same. Both methods are having same number,
+data types and same sequence of data types.
+
+Case 2:
+
+int mymethod(int a, int b)
+int mymethod(float var1, float var2)
+Result: Perfectly fine. Valid case of overloading. Here data types of arguments are different.
+
+Case 3:
+
+int mymethod(int a, int b)
+int mymethod(int num)
+Result: Perfectly fine. Valid case of overloading. Here number of arguments are different.
+
+Case 4:
+
+float mymethod(int a, float b)
+float mymethod(float var1, int var2)
+Result: Perfectly fine. Valid case of overloading. Sequence of the data types of parameters are different,
+first method is having (int, float) and second is having (float, int).
+
+Case 5:
+
+int mymethod(int a, int b)
+float mymethod(int var1, int var2)
+Result: Compile time error. Argument lists are exactly same. Even though return type of methods are different,
+it is not a valid case. Since return type of method doesn’t matter while overloading a method.

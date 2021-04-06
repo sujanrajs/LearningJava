@@ -1,0 +1,8 @@
+Method Overloading and Type Promotion
+When a data type of smaller size is promoted to the data type of bigger size than
+this is called type promotion, for example: byte data type can be promoted to short,
+a short data type can be promoted to int, long, double etc.
+
+What it has to do with method overloading?
+Well, it is very important to understand type promotion else you will think that
+the program will throw compilation error but in fact that program will run fine because of type promotion.
