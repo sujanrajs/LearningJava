@@ -1,4 +1,4 @@
-package Lesson9OverRiding.Rules12;
+package Lesson9OverRiding.Rules;
 
 // This is not allowed as child class disp method is more restrictive(protected) than base class(public)
 

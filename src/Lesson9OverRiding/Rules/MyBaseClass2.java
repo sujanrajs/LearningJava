@@ -1,4 +1,4 @@
-package Lesson9OverRiding.Rules12;
+package Lesson9OverRiding.Rules;
 
 /*
 However this is perfectly valid scenario as public is less restrictive than protected.
