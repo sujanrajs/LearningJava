@@ -1,0 +1,9 @@
+Advantage of method overriding
+
+The main advantage of method overriding is that the class can give its own specific implementation
+to a inherited method without even modifying the parent class code.
+
+This is helpful when a class has several child classes,
+so if a child class needs to use the parent class method,
+it can use it and the other classes that want to have different implementation can use overriding
+feature to make changes without touching the parent class code.
