@@ -1,0 +1,41 @@
+
+A package as the name suggests is a pack(group) of classes, interfaces and other packages.
+In java we use packages to organize our classes and interfaces.
+We have two types of packages in Java: built-in packages and the packages we can create
+(also known as user defined package).
+
+In java we have several built-in packages, for example when we need user input,
+we import a package like this:
+
+import java.util.Scanner
+
+Here:
+→ java is a top level package
+→ util is a sub package
+→ and Scanner is a class which is present in the sub package util.
+
+
+Advantages of using a package in Java
+
+These are the reasons why you should use packages in Java:
+
+Re-usability: While developing a project in java, we often feel that there are few things
+that we are writing again and again in our code.
+Using packages, you can create such things in form of classes inside a package and
+whenever you need to perform that same task, just import that package and use the class.
+
+Better Organization: Again, in large java projects where we have several hundreds of classes,
+it is always required to group the similar types of classes in a meaningful package name
+so that you can organize your project better and when you need something you can quickly locate it
+and use it, which improves the efficiency.
+
+Name Conflicts: We can define two classes with the same name in different packages,
+so to avoid name collision, we can use packages
+
+
+Types of packages in Java:
+
+As mentioned in the beginning of this guide that we have two types of packages in java.
+1) User defined package: The package we create is called user-defined package.
+2) Built-in package: The already defined package like java.io.*, java.lang.* etc
+    are known as built-in packages.

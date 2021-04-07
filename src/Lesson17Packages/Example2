@@ -1,0 +1,19 @@
+Example 2: Creating a class inside package while importing another package
+
+As we have seen that both package declaration and package import should be the first statement in your java program.
+Lets see what should be the order when we are creating a class inside a package while importing another package.
+
+//Declaring a package
+package anotherpackage;
+//importing a package
+import letmecalculate.Calculator;
+public class Example{
+   public static void main(String args[]){
+	Calculator obj = new Calculator();
+	System.out.println(obj.add(100, 200));
+   }
+}
+So the order in this case should be:
+→ package declaration
+→ package import
+

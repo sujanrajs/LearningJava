@@ -1,0 +1,23 @@
+You must have seen public, private and protected keywords while practising java programs,
+these are called access modifiers.
+An access modifier restricts the access of a class, constructor, data member and method in another class.
+In java we have four access modifiers:
+
+1. default
+2. private
+3. protected
+4. public
+
+The scope of access modifiers in tabular form
+------------+-------+---------+--------------+--------------+--------
+            | Class | Package | Subclass     | Subclass     |Outside|
+            |       |         |(same package)|(diff package)|Class  |
+————————————+———————+—————————+——————————----+—————————----—+————————
+public      | Yes   |  Yes    |    Yes       |    Yes       |   Yes |
+————————————+———————+—————————+—————————----—+—————————----—+————————
+protected   | Yes   |  Yes    |    Yes       |    Yes       |   No  |
+————————————+———————+—————————+————————----——+————————----——+————————
+default     | Yes   |  Yes    |    Yes       |    No        |   No  |
+————————————+———————+—————————+————————----——+————————----——+————————
+private     | Yes   |  No     |    No        |    No        |   No  |
+------------+-------+---------+--------------+--------------+--------

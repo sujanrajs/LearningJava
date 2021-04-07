@@ -1,0 +1,26 @@
+A package inside another package is known as sub package.
+For example If I create a package inside letmecalculate package then that will be called sub package.
+
+Lets say I have created another package inside letmecalculate
+and the sub package name is multiply.
+So if I create a class in this subpackage it should have this package declaration in the beginning:
+
+package letmecalculate.multiply;
+
+Multiplication.java
+
+package letmecalculate.multiply;
+public class Multiplication {
+	int product(int a, int b){
+		return a*b;
+	}
+}
+
+Now if I need to use this Multiplication class I have to either import the package like this:
+
+import letmecalculate.multiply;
+
+or I can use fully qualified name like this:
+
+letmecalculate.multiply.Multiplication obj =
+     new letmecalculate.multiply.Multiplication();

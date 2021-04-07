@@ -1,0 +1,33 @@
+Example 3: Using fully qualified name while importing a class
+
+You can use fully qualified name to avoid the import statement.
+Lets see an example to understand this:
+
+Calculator.java
+
+package letmecalculate;
+public class Calculator {
+   public int add(int a, int b){
+	return a+b;
+   }
+   public static void main(String args[]){
+	Calculator obj = new Calculator();
+	System.out.println(obj.add(10, 20));
+   }
+}
+
+Example.java
+
+//Declaring a package
+package anotherpackage;
+public class Example{
+   public static void main(String args[]){
+        //Using fully qualified name instead of import
+	letmecalculate.Calculator obj =
+		new letmecalculate.Calculator();
+	System.out.println(obj.add(100, 200));
+   }
+}
+
+In the Example class, instead of importing the package,
+I have used the full qualified name such as package_name.class_name to create the object of it.

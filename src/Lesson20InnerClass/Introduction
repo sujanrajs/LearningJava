@@ -1,0 +1,11 @@
+
+Inner class are defined inside the body of another class (known as outer class).
+These classes can have access modifier or even can be marked as abstract and final.
+Inner classes have special relationship with outer class instances.
+This relationship allows them to have access to outer class members including private members too.
+
+Inner classes can be defined in four different following ways as mentioned below:
+1) Inner class
+2) Method – local inner class
+3) Anonymous inner class
+4) Static nested class

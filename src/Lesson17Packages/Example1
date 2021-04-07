@@ -1,0 +1,36 @@
+
+a class Calculator inside a package name letmecalculate.
+To create a class inside a package, declare the package name in the first statement in your program.
+A class can have only one package declaration.
+Calculator.java file created inside a package letmecalculate
+
+package letmecalculate;
+
+public class Calculator {
+   public int add(int a, int b){
+	return a+b;
+   }
+   public static void main(String args[]){
+	Calculator obj = new Calculator();
+	System.out.println(obj.add(10, 20));
+   }
+}
+
+
+Now lets see how to use this package in another program.
+
+import letmecalculate.Calculator;
+public class Demo{
+   public static void main(String args[]){
+	Calculator obj = new Calculator();
+	System.out.println(obj.add(100, 200));
+   }
+}
+
+To use the class Calculator, I have imported the package letmecalculate.
+In the above program I have imported the package as letmecalculate.Calculator,
+this only imports the Calculator class.
+However if you have several classes inside package letmecalculate then you can import the package like this,
+to use all the classes of this package.
+
+import letmecalculate.*;
