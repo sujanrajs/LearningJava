@@ -1,0 +1,25 @@
+
+Static import allows you to access the static member of a class directly without using the
+fully qualified name.
+
+To understand this topic, you should have the knowledge of packages in Java.
+Static imports are used for saving your time by making you type less.
+If you hate to type same thing again and again then you may find such imports interesting.
+
+Points to note:
+1) Package import syntax:
+
+import static java.lang.System.out;
+import static java.lang.Math.*;
+2) Note comments given in the above code.
+
+
+When to use static imports?
+If you are going to use static variables and methods a lot then it’s fine to use static imports.
+for example if you wanna write a code with lot of mathematical calculations then
+you may want to use static import.
+
+Drawbacks
+It makes the code confusing and less readable so if you are going to use static members very
+few times in your code then probably you should avoid using it.
+You can also use wildcard(*) imports.
