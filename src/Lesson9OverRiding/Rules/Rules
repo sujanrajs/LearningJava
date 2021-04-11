@@ -25,4 +25,4 @@ the ones declared by the overridden method.
 Binding of overridden methods happen at runtime which is known as dynamic binding.
 
 If a class is extending an abstract class or implementing an interface then it has to
-override all the abstract methods unless the class itself is a abstract class.
+override all the abstract methods unless the class itself is a abstract class
